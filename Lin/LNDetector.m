@@ -32,6 +32,7 @@
     
     if (self) {
         self.regularExpressionPatterns = @[
+                                           [LNRegularExpressionPattern patternWithType:LNEntityTypeLocalizedStringWithCustomType],
                                            [LNRegularExpressionPattern patternWithType:LNEntityTypeLocalizedString],
                                            [LNRegularExpressionPattern patternWithType:LNEntityTypeLocalizedStringForKey],
                                            [LNRegularExpressionPattern patternWithType:LNEntityTypeLocalizedStringFromTable],
